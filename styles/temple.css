@@ -56,6 +56,9 @@ ul li a:hover{
 
 
 }
+img{
+    width: 30rem;
+}
 footer{
     position: absolute;
     bottom: 0;
@@ -64,7 +67,6 @@ footer{
     color: white;
     text-align: center;
     padding: 16px;
-    
 }
 
 
