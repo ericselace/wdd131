@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f9f9f9;
+    color: #222;
+}
+
+header, footer {
+    background: crimson;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    background: darkgreen;
+    color: white;
+    padding: 0.5rem;
+    margin: -1rem -1rem 1rem -1rem;
+    text-align: center;
+}
+@media screen and (min-width: 700px) {
+    main {
+        position: relative;
+    }
+
+    .main-image {
+    height: 500px;
+    object-fit: cover;
+    }
+
+    .info {
+        position: absolute;
+        width: 300px;
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    .data {
+    top: 2rem;
+    left: 2rem;
+    }
+
+    .weather {
+    bottom: 2rem;
+    right: 2rem;
+    }
+}
+
+
