@@ -97,8 +97,8 @@ temples.forEach((temple) => {
     date.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
 
 
-    const area = document.createElement('p');
-    area.innerHTML = `<strong>Size:</strong> ${temple.size}`;
+    let area = document.createElement('p');
+    area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
 
 
 
