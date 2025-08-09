@@ -1,5 +1,3 @@
-javascript
-
 document.getElementById('menu-toggle').addEventListener('click', () => {
     document.getElementById('nav-menu').classList.toggle('show');
 });
@@ -48,7 +46,7 @@ const temples = [{
         templeName: "Lima Perú",
         location: "Lima, Perú",
         dedicated: "1986, January, 10",
-        area: 9600,
+        area: '9600 ',
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
     {
@@ -59,26 +57,26 @@ const temples = [{
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
     {
-        templeName: "benin city Nigreia",
-        location: "Benin city , nigeria",
-        dedicated: "2025, May 24",
-        area: "30700",
-        imageUrl: "https://churchofjesuschristtemples.org/benin-city-nigeria-temple/photographs/#Official"
+        templeName: "Barranquilla, Colombia",
+        location: "Barranquilla, Colombia",
+        dedicated: "2018, December 9",
+        area: "25,349 square feet",
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/320x200/2-Barranquilla-Columblia-Temple-2135201.jpg"
 
     },
     {
-        templeName: "Abidjan cocody ",
-        location: "Abidjan , cote d'ivoire",
-        dedicated: "2025, May 25",
+        templeName: "frankfurt, Germany",
+        location: "frankfurt, Germany",
+        dedicated: "2019, October 20",
         area: "17362",
-        imageUrl: "https://churchofjesuschristtemples.org/abidjan-ivory-coast-temple/photographs/#Official-16"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/320x200/frankfurt-temple-3-2278181.jpg"
     },
     {
-        templeName: "Kossoh Town, Freetown",
-        location: "Freetown,Sierra Leone",
+        templeName: "Idaho Falls ,Idaho",
+        location: " Idaho, united states",
         dedicated: "2022, March 19 ",
         area: "18000",
-        imageUrl: "https://churchofjesuschristtemples.org/freetown-sierra-leone-temple/photographs/#Official"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/320x200/1-Idaho-Falls-Temple-2097425.jpg"
     }
 
 ];
