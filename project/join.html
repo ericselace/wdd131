@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us - Helping Hands Mission</title>
+    <link rel="stylesheet" href="styles/helping_hand.css" />
+    <script src=""></script>
+</head>
+<body>
+    <header>
+        <h1>Helping Hands Mission</h1>
+        <nav>
+            <ul>
+                <li><a href="home_helphandmission.html">Home</a></li>
+                <li><a href="main_page.html">Mission</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="join-us">
+            <h2>Join Our Mission</h2>
+            <p>
+                Ready to make a difference? Whether you’re volunteering, donating, or offering support,
+                your contribution counts. Reach out through the contact information below or use the form.
+            </p>
+
+            <div class="contact-info">
+                <p><strong>Phone:</strong> ‪+228 98 57 49 32‬</p>
+                <p><strong>Email:</strong> <a href="mailto:ericselace@gmail.com">ericselace@gmail.com</a></p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required />
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Helping Hands Mission</p>
+    </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
